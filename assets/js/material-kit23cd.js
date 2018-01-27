@@ -39,7 +39,7 @@ var big_image;
 
      // Active Carousel
  	$('.carousel').carousel({
-       interval: 3000
+       interval: 5000
      });
 
      //Activate tags
