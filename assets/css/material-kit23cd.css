@@ -2815,7 +2815,11 @@ select.form-control[multiple],
     height: 50px;
     line-height: 30px;
     color: inherit;
-    padding: 10px 15px;
+    background-image: url('../img/logo.png');
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 95px;
+    margin-left: 20px;
 }
 
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
@@ -4573,7 +4577,6 @@ h2.title {
 }
 
 .card-background:after,
-.back-background:after,
 .front-background:after {
     position: absolute;
     z-index: 1;
@@ -4583,7 +4586,7 @@ h2.title {
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.56);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }
 
@@ -4729,7 +4732,7 @@ h2.title {
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.56);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 6px;
 }
 
@@ -6705,7 +6708,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .header-filter::before {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .header-filter .container {

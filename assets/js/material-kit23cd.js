@@ -26,28 +26,9 @@ var big_image;
 
      $navbar_collapse = $('.navbar').find('.navbar-collapse');
 
-     //  Activate the Tooltips
-     $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
-
-     //    Activate bootstrap-select
-     if($(".selectpicker").length != 0){
-         $(".selectpicker").selectpicker();
-     }
-
-     // Activate Popovers
-     $('[data-toggle="popover"]').popover();
-
      // Active Carousel
  	$('.carousel').carousel({
        interval: 5000
-     });
-
-     //Activate tags
-     //removed class label and label-color from tag span and replaced with data-color
-     var tagClass = $('.tagsinput').data('color');
-
-     $('.tagsinput').tagsinput({
-         tagClass: ' tag-'+ tagClass +' '
      });
 
      if($('.navbar-color-on-scroll').length != 0){
