@@ -336,56 +336,7 @@ var big_image;
          marker.setMap(map);
      },
 
-     initSharrre: function(){
-         $('#twitter').sharrre({
-           share: {
-             twitter: true
-           },
-           enableHover: false,
-           enableTracking: true,
-           enableCounter: false,
-           buttons: { twitter: {via: 'CreativeTim'}},
-           click: function(api, options){
-             api.simulateClick();
-             api.openPopup('twitter');
-           },
-           template: '<i class="fa fa-twitter"></i> Twitter',
-           url: 'http://demos.creative-tim.com/material-kit-pro/presentation.html'
-         });
-
-         $('#facebook').sharrre({
-           share: {
-             facebook: true
-           },
-           enableHover: false,
-           enableTracking: true,
-           enableCounter: false,
-           click: function(api, options){
-             api.simulateClick();
-             api.openPopup('facebook');
-           },
-           template: '<i class="fa fa-facebook-square"></i> Facebook',
-           url: 'http://demos.creative-tim.com/material-kit-pro/presentation.html'
-         });
-
-         $('#google').sharrre({
-           share: {
-             googlePlus: true
-           },
-           enableCounter: false,
-           enableHover: false,
-           enableTracking: true,
-           click: function(api, options){
-             api.simulateClick();
-             api.openPopup('googlePlus');
-           },
-           template: '<i class="fa fa-google-plus"></i> Google',
-           url: 'http://demos.creative-tim.com/material-kit-pro/presentation.html'
-         });
-
-     }
-
- }
+ };
  // Returns a function, that, as long as it continues to be invoked, will not
  // be triggered. The function will be called after it stops being called for
  // N milliseconds. If `immediate` is passed, trigger the function on the
@@ -402,17 +353,7 @@ var big_image;
  		}, wait);
  		if (immediate && !timeout) func.apply(context, args);
  	};
- };
-
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-46172202-1']);
- _gaq.push(['_trackPageview']);
-
- (function() {
- var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
- ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
- var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- })();
+ }
 
  var BrowserDetect = {
      init: function () {
