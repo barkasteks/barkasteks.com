@@ -4560,7 +4560,7 @@ h2.title {
 .front-background .category,
 .front-background .card-description,
 .front-background small {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .card-background .card-title,
@@ -4586,7 +4586,7 @@ h2.title {
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 6px;
 }
 
