@@ -3890,15 +3890,20 @@ h2.title {
 
 .carousel .item {
     text-align: center;
-      height: 500px;
 }
 
-.item img {
+#carousel .carousel .item {
+    text-align: center;
+    height: 500px;
+}
+
+#carousel  .item img {
     position: absolute;
     top: 0;
     left: 0;
     min-height: 500px;
 }
+
 .carousel.carousel-full-nagivation .carousel-control {
     width: 50%;
 }
