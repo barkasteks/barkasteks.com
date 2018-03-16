@@ -6650,7 +6650,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .section-image .container {
