@@ -697,37 +697,36 @@
                     </div>
                     <div class="col-md-5 col-md-offset-2">
                         <div class="card card-contact">
-                            <form role="form" id="contact-form" method="post">
+                            <form role="form" id="contact-form" method="post"
+                                  action="https://karimoff.wufoo.com/forms/z1t7m9xt0sw72tt/#public"
+                                  enctype="multipart/form-data">
                                 <div class="header header-raised header-primary text-center">
                                     <h4 class="card-title">Contact Us</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="form-group label-floating">
-                                                <label class="control-label">First name</label>
-                                                <input type="text" name="name" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group label-floating">
-                                                <label class="control-label">Last name</label>
-                                                <input type="text" name="name" class="form-control">
+                                                <label class="control-label">Name</label>
+                                                <input type="text" name="Field1" class="form-control" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-group label-floating">
-                                        <label class="control-label">Email address</label>
-                                        <input type="email" name="email" class="form-control"/>
+                                        <label class="control-label">Email</label>
+                                        <input type="email" name="Field6" class="form-control" required/>
                                     </div>
                                     <div class="form-group label-floating">
                                         <label class="control-label">Your message</label>
-                                        <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+                                        <textarea name="Field7" class="form-control" id="message" rows="6"
+                                                  required></textarea>
                                     </div>
-
+                                    <input type="hidden" id="idstamp" name="idstamp"
+                                           value="4MA9SHph6YTspfqpdZqNRjx36bYxfmpHnHAZ4Z+Odos="/>
                                     <div class="row">
                                         <div class="col-md-6 pull-right">
-                                            <button type="submit" class="btn btn-primary pull-right">Send Message
+                                            <button type="submit" name="saveForm" class="btn btn-primary pull-right">
+                                                Send Message
                                             </button>
                                         </div>
                                     </div>
